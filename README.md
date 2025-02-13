@@ -9,6 +9,9 @@ This project is a real-time data processing project that demonstrates the use of
 - category → Groups sentiment by topic.
 - sentiment → Helps analyze trends and mood shifts.
 
+## Custom Consumer
+The custom consumer reads messages from a Kafka topic, extracts relevant data (timestamp, category, sentiment), and stores it in an SQLite database.
+
 ## Installation
 
 ### Clone the Repository
