@@ -3,18 +3,12 @@
 
 This project is a real-time data processing project that demonstrates the use of Apache Kafka and Python to stream, consume, and visualize sentiment data dynamically. The system ingests messages about various topics, analyzes sentiment, and visualizes the results to monitor trends over time.
 
-## Features
-
-- **Real-Time Data Streaming**: Utilizes Apache Kafka for robust message handling.
-- **Dynamic Data Processing**: Python consumer processes incoming messages and stores them in a SQLite database.
-- **Interactive Data Visualization**: Generates plots to visualize sentiment trends using Matplotlib.
-
-## Prerequisites
+## Insights used
 
 Ensure you have the following installed on your system:
-- Python 3.8 or higher
-- Apache Kafka
-- Visual Studio Code (recommended for editing and running the project)
+- timestamp → Tracks when the message was received.
+- category → Groups sentiment by topic.
+- sentiment → Helps analyze trends and mood shifts.
 
 ## Installation
 
@@ -33,6 +27,11 @@ python -m venv .venv
 # Unix/MacOS
 source .venv/bin/activate
 
+## Start Kafka & Zookeeper
+
+- zookeeper-server-start.sh config/zookeeper.properties
+- kafka-server-start.sh config/server.properties
+
 ## Install Dependencies
 pip install -r requirements.txt
 pip install pandas matplotlib
@@ -48,12 +47,5 @@ python visualization.py
 
 ## License
 
-### Key Aspects of This README
-
-- **Comprehensive Instructions**: Includes steps from cloning the repo to running the project.
-- **Environment Setup**: Detailed virtual environment and dependency setup.
-- **Usage**: Clear instructions on how to run different components of the project.
-- **Development Tools**: Advice on setting up VSCode for optimal use with this project.
-- **Open for Contributions**: Encourages contributions and provides a standard workflow for adding features.
-
+This project is licensed under the MIT License as an example project. You are encouraged to fork, copy, explore, and modify the code as you like. See the LICENSE file for more.
 
