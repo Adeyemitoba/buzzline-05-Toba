@@ -5,7 +5,6 @@ This project is a real-time data processing project that demonstrates the use of
 
 ## Insights used
 
-Ensure you have the following installed on your system:
 - timestamp → Tracks when the message was received.
 - category → Groups sentiment by topic.
 - sentiment → Helps analyze trends and mood shifts.
