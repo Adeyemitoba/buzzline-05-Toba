@@ -1,7 +1,7 @@
 ## buzzline-05-Toba
 ## Project Overview
 
-Buzzline-05 is a real-time data processing project that demonstrates the use of Apache Kafka and Python to stream, consume, and visualize sentiment data dynamically. The system ingests messages about various topics, analyzes sentiment, and visualizes the results to monitor trends over time.
+This project is a real-time data processing project that demonstrates the use of Apache Kafka and Python to stream, consume, and visualize sentiment data dynamically. The system ingests messages about various topics, analyzes sentiment, and visualizes the results to monitor trends over time.
 
 ## Features
 
